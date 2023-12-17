@@ -2,15 +2,15 @@ import mongoose from "mongoose";
 
 const bookSchema = mongoose.Schema(
     {
-        Title:{
+        title:{
             type: String,
             required: true,
         },
-        Author:{
+        author:{
             type: String,
             required: true,
         },
-        PublishYear:{
+        publishYear:{
             type: Number,
             required: true,
         },
